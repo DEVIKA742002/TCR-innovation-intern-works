@@ -1,0 +1,133 @@
+ 
+.categories {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c-name {
+    padding: 15px 15px 7px;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    color: #222;
+}
+
+.categories-sec {
+    display: flex;
+    width: 100%;
+    flex: 2;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    border-radius: 2px;
+    padding: 15px 20px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.one-fourth {
+    width: 24%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+*, body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.one-fourth {
+    width: 24%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+    .aspectRation {
+        display: block;
+        width: 100%;
+        position: relative;
+      }
+    
+      .aspectRation img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all ease-in-out 0.25s;
+      }
+    
+      .aspectRation:hover img {
+        transform: scale(1.05);
+      }
+    
+      .aspectRation.hero {
+        padding-top: 16.14%;
+      }
+    
+      .aspectRation.hero:hover img {
+        transform: scale(1);
+      }
+    
+      .aspectRation.launch {
+        padding-top: 63.24%;
+      }
+    
+      .aspectRation.occas {
+        padding-top: 100%;
+      }
+
+
+      .aspectRation img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all ease-in-out 0.25s;}
+        
+        .content-container img {
+            max-width: 100%;
+        }
+
+        .aspectRation {
+          border-radius: 50%;
+      }
+      
+
+        
+
+        
+    
+
+   
+      
+ 
