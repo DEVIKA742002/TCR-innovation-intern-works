@@ -1,0 +1,83 @@
+element.style {
+    width: 383px;
+    height: 541.821px;
+    margin: 0px;
+}
+.n3VNCb.KAlRDb {
+    background-color: #fff;
+    background-image: linear-gradient(45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef),linear-gradient(45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef);
+    background-position: 0 0,10px 10px;
+    background-size: 21px 21px;
+}
+.n3VNCb {
+    vertical-align: middle;
+}
+.n3VNCb {
+    width: 100%;
+}
+img {
+    border: none;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+img[Attributes Style] {
+}
+a {
+    text-decoration: none;
+    color: #2962ff;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.v4dQwb {
+    -webkit-user-select: none;
+    width: 100%;
+    margin: auto;
+}
+.qdnLaf {
+    background-color: #fff;
+    line-height: 0;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 2;
+}
+.l39u4d {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100vh;
+    overflow: hidden;
+    transform: translateZ(0);
+    vertical-align: top;
+    white-space: normal;
+}
+.mJxzWe {
+    display: block;
+    height: 100%;
+    min-width: 908px;
+    position: relative;
+    vertical-align: top;
+    white-space: nowrap;
+}
+body {
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+    font-size: small;
+    margin: 0;
+    position: relative;
+    -webkit-font-smoothing: auto;
+}
+body {
+    height: 100%;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,.87);
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 0;
+    text-size-adjust: 100%;
+}

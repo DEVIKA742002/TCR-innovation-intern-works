@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position:absolute;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #008CBA; */
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: azure;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="./calicut chicken briyani.jfif" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Biryani is the rich and royal dish that can instantly make your menu drool-worthy. A rice based dish, the only one that would always be the main dish even in an elaborate, exquisite lunch or dinner menu. Biryani has its origin in the Muslim community, the Mughlai and the Awadhi cuisine but with time it has crossed borders and is now a popular dish across nations with different variations for different palates. This biryani recipe here is a popular one from Kerala which has two distinct biryanis, the other one apart from this is the Thalassery biryani which has just a slightly different method from this one. This Calicut or Kozhikode Chicken Biryani recipe is quick and easy one, made right inside your kitchen with simple ingredients and steps. Serve and savour with family or friends this festive season at dinner parties or cook for an elaborate brunch.</div>
+  </div>
+</div>
+
+</body>
+</html>

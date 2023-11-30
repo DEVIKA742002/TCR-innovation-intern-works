@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position:absolute;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #008CBA; */
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: azure;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="./keema-biryani-1B-480x360.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"> </div>Biryani is a dish that has able to unified our country in a unique sense with its simmering aromatic flavours which has touched the soul of each one of us. A popular Biryani recipe from the south India spread all across the globe, Keema Biryani is the delicious amalgamation of rice with aromatic spices is a delight to relish on. Perfect for dinner parties with friends and family, to impress everyone with your culinary skills!
+  </div>
+</div>
+
+</body>
+</html>

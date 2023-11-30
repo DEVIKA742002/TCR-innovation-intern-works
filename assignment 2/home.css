@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	justify-content: space-evenly;
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	align-items: center;
+}
+
+body{
+  background-image: url(https://thumbs.dreamstime.com/b/purple-pink-soft-color-mixed-background-painting-art-pastel-abstract-colorful-art-wallpaper-purple-abstract-colorful-bright-color-117208129.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 15px;
+  height:100%;
+  weight:100%;
+  overflow:auto;
+}
+
+.nav-links{
+	display: flex;
+}
+
+nav {
+	flex:1;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+	
+}
+
+.nav-link {
+	color: #6d6767;
+	font-size: 22px;
+	text-decoration: none;
+}
+.nav-link:hover{
+	color:black;
+	list-style: none;
+}
+.nav-link {
+	color: #6d6767;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.nav-link:hover{
+	color:blue;
+}
+
+.page-header-container { text-align: center; }
+
+.page-header {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro-img {
+  background-image: url(./national-chocolate-ice-cream-day-berries.gif);
+  background-position: center;
+  background-size: cover;
+  height:400px;
+  weight:200px;
+
+}  
+
+footer{
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-link:hover
+ { 
+  color:aqua;
+ }

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>HTML Admission Form Page</title>
+</head>
+<fieldset>
+    <legend> HTML Admission Form </legend>
+
+    <body>
+        <style>
+            form {
+            
+                height: 100%;
+            } 
+
+
+            label {
+                clear: left;
+                width: 90px;
+                margin:auto;
+                text-align: center;
+            }
+
+
+            legend {
+                padding: 3px;
+                margin-left: calc(50% - 35px - 8px);
+            }
+
+            body {
+                width: 40%;
+                height: 100px;
+                margin:auto;
+                background-color:rgba(255, 182, 193, 0.212);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            div {
+                color:rgb(0, 0, 0);
+                text-align: center;
+                background-image:url('https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=600');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+             }
+        </style>
+
+
+        <form > <center>
+        <div>
+            <label>Firstname</label><br>
+            <input type="name" value="name" /><br><br>
+
+            <label> Lastname</label><br>
+            <input type="name" value="name" /><br><br>
+
+            <label>Select Country</label><br>
+            <select>
+                <option>India</option>
+                <option>France</option>
+                <option>Italy</option>
+            </select>
+
+            <br><br>
+            <label>Select Gender</label><br>
+            <label>Female</label><input type="radio" name="gender" /> <br>
+            <label>Male</label><input type="radio" name="gender" /><br>
+            <label>Others</label><input type="radio" name="gender" /><br>
+            <br>
+
+
+            <label>Select Course </label> <br>
+            <label>css</label><input type="checkbox" /><br>
+            <label>html</label><input type="checkbox" /><br>
+            <label>php</label><input type="checkbox" /><br>
+            <br>
+
+
+
+            <label>Phone number</label><br>
+            <input type="text" name="country code" value="+91" /><br><br>
+
+            <label>Address</label>
+            <br>
+            <textarea cols="30" rows="5" value="address" /></textarea>
+            <br>
+
+            <label>Email id</label>
+            <br>
+            <input type="email" id="email" name="email" />
+            <br><br>
+
+            <label>Password</label>
+            <br>
+            <input type="password" id="pass" name="pass" />
+            <br><br>
+
+            <label>Re-type Password</label>
+            <br>
+            <input type="password" id="pass" name="pass" />
+            <br><br>
+
+
+            <label>Select Date</label><br>
+            <input type="date" />
+            <br><br>
+
+            <label>Upload File</label><br>
+            <input type="file" />
+            <br><br>
+
+            <label>Your Comment</label><br>
+            <textarea cols="30" rows="5">
+</textarea>
+            <br><br>
+            <input type="submit" />
+            </form>
+            </center>
+</fieldset>
+</div>
+</body>
+
+</html>

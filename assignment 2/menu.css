@@ -1,0 +1,155 @@
+body{
+  background-image: url(https://thumbs.dreamstime.com/b/purple-pink-soft-color-mixed-background-painting-art-pastel-abstract-colorful-art-wallpaper-purple-abstract-colorful-bright-color-117208129.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 15px;
+  height:100%;
+  weight:100%;
+  overflow:auto;
+}
+
+
+  *{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	justify-content: space-evenly;
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	align-items: center;
+}
+
+.nav-links{
+	display: flex;
+}
+
+nav {
+	flex:1;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+	
+}
+
+.nav-link {
+	color: #6d6767;
+	font-size: 22px;
+	text-decoration: none;
+}
+.nav-link:hover{
+	color:black;
+	list-style: none;
+}
+.nav-link {
+	color: #6d6767;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.nav-link:hover{
+	color:blue;
+}
+
+
+.section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .section-header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+  }
+  
+  div{text-align: center;}
+
+  .blink{
+    height: 20px;
+    padding: 15px;	
+    text-align:center;
+    line-height: 30px;
+    font-size:15px;
+    font-family: cursive;
+    color:rgb(129, 90, 90);
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity:.5;}
+100%{opacity:1;}
+}
+
+table {
+  table-layout: fixed;
+  width: 50%;
+  tab-size: 2px; 
+  border-spacing: 0px;
+  border:1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+     
+td {
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.text-left { text-align:center; }
+ 
+th {
+  color: #333333;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align:center;
+  height: 40px;
+}
+
+tr:nth-child(odd) { background-color: #e5e8ed; }
+
+tr.tr-header {
+  background-color: #c4cdd6;
+  height: 40px;
+}
+
+ol{
+  text-align:left;
+  padding-left: 40%;
+
+}
+
+li{
+  text-align:justify;
+}
+
+
+footer{
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-link:hover
+ { 
+  color:aqua;
+ }
+
