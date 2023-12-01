@@ -16,7 +16,7 @@ Welcome to my GitHub profile! 🚀 I've been an intern for the past year, and he
 
 ## 📬 Connect with Me
 - 📧 Email: devika742002@gmail.com
-- 🔗 LinkedIn: 
+- 🔗 LinkedIn: www.linkedin.com/in/devika-n-4a86731bb
 
 ## 🙏 Acknowledgments
 - 🙌 Grateful for the support and mentorship from TCR Innovation
